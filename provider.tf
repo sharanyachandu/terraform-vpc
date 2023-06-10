@@ -1,5 +1,8 @@
-Provider "aws" {
-    region = "us-east-1"
+provider "aws" {
+    region  =   "us-east-1"
 }
 
- backend "s3" {} 
+# Values with in the backend config are supplied from the environment specific
+terraform {
+  backend "s3" {}
+}
