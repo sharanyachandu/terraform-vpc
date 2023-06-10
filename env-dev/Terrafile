@@ -1,0 +1,3 @@
+vpc:
+    source:  "https://github.com/sharanyachandu/terraform-module-vpc.git"
+    version: "main"
